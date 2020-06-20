@@ -92,13 +92,18 @@ func calculate(items map[string]float64, amount float64) []string {
 	var stringOptima =""
 	var listaOptima []string
 	var suma=0.0
-	for x := 0; x < len(listaValores); x++ {
-		suma+=listaValores[x]
-		log.Println("suma: ", suma)
-		if suma > amount{
-			break	
+	var itemAnterior=""
+	for x := 0; x < len(listaValores); x++{
+		log.Println(itemAnterior+" - "+listakeys[x])
+		if itemAnterior != listakeys[x]{
+			itemAnterior=listakeys[x]
+			suma+=listaValores[x]
+			log.Println("suma: ", suma)
+			if suma > amount{
+				break	
+			}
+			stringOptima+=listakeys[x]+","
 		}
-		stringOptima+=listakeys[x]+","
 	}
 	if len(stringOptima) > 0{
 		listaOptima = strings.Split(stringOptima[:len(stringOptima)-1], ",")
