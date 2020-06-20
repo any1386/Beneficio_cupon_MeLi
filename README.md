@@ -31,7 +31,7 @@ https://beneficiocuponmeli.rj.r.appspot.com
 # Realizar pruebas Usando la Herramienta Soap UI
 La siguiente es la url obtenida en el host de Google App Engine:
 https://beneficiocuponmeli.rj.r.appspot.com
-Se adjunta en github el archivo BeneficioCuponMeli-soapui.xml con request y con TestSuite
+Se adjunta en github el archivo BeneficioCuponMeli-soapui.xml con request y con TestSuite.
 
 Por metodo Post con el EndPoint https://beneficiocuponmeli.rj.r.appspot.com
 
@@ -40,6 +40,7 @@ con el Request:
 	"valorCupon":"100000",
 	"idItem":["MLA816019440","MLA811601010","MLA810645375","MLA805330648"]
 }
+
 Se obtiene como resultado:
 {
    "resultadoOperacion": "Operacion exitosa!!",
