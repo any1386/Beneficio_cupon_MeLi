@@ -29,9 +29,9 @@ Y se da el siguiente comando para obtener la url
 https://beneficiocuponmeli.rj.r.appspot.com
 
 # Realizar pruebas Usando la Herramienta Soap UI
-la siguiente es la url obtenida en el host de Google App Engine
+La siguiente es la url obtenida en el host de Google App Engine:
 https://beneficiocuponmeli.rj.r.appspot.com
-Se adjunta en github BeneficioCuponMeli-soapui.xml con request y con TestSuite
+Se adjunta en github el archivo BeneficioCuponMeli-soapui.xml con request y con TestSuite
 
 Por metodo Post con el EndPoint https://beneficiocuponmeli.rj.r.appspot.com
 
